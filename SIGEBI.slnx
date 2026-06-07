@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="SIGEBI.Api/SIGEBI.Api.AppHost/SIGEBI.Api.AppHost.csproj" />
+    <Project Path="SIGEBI.Api/SIGEBI.Api.Server/SIGEBI.Api.Server.csproj" />
+  </Folder>
+  <Folder Name="/Aplicacion/">
+    <Project Path="SIGEBI.Aplicacion/SIGEBI.Aplicacion.csproj" />
+  </Folder>
+  <Folder Name="/Escritorio/">
+    <Project Path="SIGEBI.Escritorio/SIGEBI.Escritorio.csproj" />
+  </Folder>
+  <Folder Name="/Infraestructura/">
+    <Project Path="SIGEBI.Infraestructura/SIGEBI.Infraestructura.csproj" />
+    <Project Path="SIGEBI.Persistencia/SIGEBI.Persistencia.csproj" />
+  </Folder>
+  <Folder Name="/InyeccionDependencias/">
+    <Project Path="SIGEBI.IOC/SIGEBI.IOC.csproj" />
+  </Folder>
+  <Folder Name="/Nucleo/">
+    <Project Path="SIGEBI.Dominio/SIGEBI.Dominio.csproj" />
+    <Project Path="SIGEBI.Modelo/SIGEBI.Modelo.csproj" />
+  </Folder>
+  <Folder Name="/Pruebas/">
+    <Project Path="SIGEBI.Aplicacion.Pruebas/SIGEBI.Aplicacion.Pruebas.csproj" />
+    <Project Path="SIGEBI.Persistencia.Pruebas/SIGEBI.Persistencia.Pruebas.csproj" />
+  </Folder>
+  <Folder Name="/Web/">
+    <Project Path="SIGEBI.Web/SIGEBI.Web.AppHost/SIGEBI.Web.AppHost.csproj" />
+    <Project Path="SIGEBI.Web/SIGEBI.Web.Server/SIGEBI.Web.Server.csproj" />
+  </Folder>
+</Solution>

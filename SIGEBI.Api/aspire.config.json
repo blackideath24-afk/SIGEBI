@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "SIGEBI.Api.AppHost/SIGEBI.Api.AppHost.csproj"
+  }
+}
