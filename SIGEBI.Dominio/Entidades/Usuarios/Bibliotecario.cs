@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIGEBI.Escritorio.Entidades.Usuarios
+namespace SIGEBI.Dominio.Entidades.Usuarios
 {
-    internal class Bibliotecario
+    public class Bibliotecario
     {
+        public int Id { get; set; }
+        public string NombreCompleto { get; set; }
+        public string NumeroEmpleado { get; set; }
     }
 }

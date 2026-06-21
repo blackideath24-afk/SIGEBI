@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIGEBI.Escritorio.Entidades.Prestamos
+namespace SIGEBI.Dominio.Entidades.Prestamos
 {
-    internal class Multa
+    public class Multa
     {
+        public int Id { get; set; }
+        public decimal Monto { get; set; }
+        public bool Pagada { get; set; }
+
+        // Relacion con Préstamo
+        public int PrestamoId { get; set; }
+        public Prestamo Prestamo { get; set; }
     }
 }

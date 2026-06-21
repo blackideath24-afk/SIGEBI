@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIGEBI.Escritorio.Entidades.Catalogo
+namespace SIGEBI.Dominio.Entidades.Catalogo
 {
-    internal class Categoria
+    public class Categoria
     {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
     }
 }
