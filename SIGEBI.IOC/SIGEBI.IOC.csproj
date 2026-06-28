@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SIGEBI.Aplicacion\SIGEBI.Aplicacion.csproj" />
+    <ProjectReference Include="..\SIGEBI.Persistencia\SIGEBI.Persistencia.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIGEBI.Escritorio.Repositorio
+namespace SIGEBI.Dominio.Repositorio
 {
     public interface IRepositorioBase<T> where T : class
     {

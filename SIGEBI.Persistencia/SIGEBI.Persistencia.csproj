@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\Catalogo\" />
-    <Folder Include="Base\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Interfaces\Usuarios\" />
     <Folder Include="Interfaces\Prestamos\" />
